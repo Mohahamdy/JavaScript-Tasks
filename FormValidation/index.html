@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validatioln</title>
+    <link rel="stylesheet" href="styleesheet.css">
+</head>
+<body>
+    <form id="form" onsubmit="change(event)">
+    <div class="parent">
+        <h2>Form Validation</h2>
+        <div>
+            <label for="">Name</label>
+            <input type="text" id="name">
+            <span id="nameError"></span>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <span id="emailError"></span>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <span id="passwordError"></span>
+        </div>
+        <div class="gender">
+            <label for="" class="genderLabel">Gender</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            
+        </div>
+        <span id="genderErorr"></span>
+        <div class="gender">
+            <label for="" style="margin-left: 8px;">Sports</label>            
+            <input style="margin-left: 34px;" type="checkbox" name="Sports" id="tennis" value="tennis">
+            <label for="tennis">Tennis</label>
+            <input style="margin-left: 21px;" type="checkbox" name="Sports" id="run" value="run">
+            <label for="run">Running</label>
+        </div>
+        <span id="sportErorr"></span>
+        <div class="gender">
+            <label for="" class="genderLabel1">Country</label>
+            <select id="country">
+            <option value=""></option>
+            <option value="USA">USA</option>
+            <option value="ENG">ENG</option>
+            <option value="EGY">EGY</option>
+            <option value="PAL">PAL</option>
+            </select>
+        </div> 
+        <span id="countryErorr"></span>
+        <button type="submit" class="action-button" id="submit">Submit</button>
+    </div>
+    </form>
+    <script src="./form.js"></script>
+</body>
+</html>

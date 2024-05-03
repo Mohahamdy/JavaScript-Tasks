@@ -1,0 +1,92 @@
+.child1{
+    float:left;
+    width: 30%;
+    text-align: center;
+}
+.child2{
+    float: right;
+    width: 70%;
+}
+.clear{
+    clear: both;
+}
+.output{
+    width: 50%;
+    height: 40px;
+    background-color: blue;
+    font-size: large;
+    color: aliceblue;
+    margin-left: 52px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+.notes{
+    width: 50%;
+    height: 40px;
+    background-color: orange;
+    font-size: large;
+    color: aliceblue;
+    margin-left: 52px;
+    margin-top: 45px;
+}
+.text{
+    margin-top: 34px;
+    margin-left: 51px;
+}
+#input3{
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: rgb(149, 224, 234);
+    text-align: center;
+    font-size: 25px;
+}
+.input2{
+    margin-left: 90px;
+}
+.span{
+    display: block  ;
+    margin-left: 20px;
+}
+.circle{
+    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    color: white;
+}
+.cred{
+    background-color: red;
+    color: red;
+}
+.corange{
+    background-color: orange;
+    color: orange;
+}
+.cgreen{
+    background-color: green;
+    color: green;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.ready{
+    position: absolute;
+    left: 15px;
+    bottom: -42px;
+}
+.steady{
+    position: absolute;
+    left: 15px;
+    bottom: -42px;
+}
+.go{
+    position: absolute;
+    left: 31px;
+    bottom: -42px;
+}
+
+

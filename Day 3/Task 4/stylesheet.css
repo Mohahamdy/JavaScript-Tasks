@@ -1,0 +1,38 @@
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.child .input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.child .input input{
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+}
+.child .input label{
+    margin-bottom: 5px;
+}
+.showresult{
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(243, 227, 172);
+    font-size:larger;
+    color: black;
+    margin: 20px 0;
+}
+#text{
+    width: 700px;
+    height: 150px;
+    margin-top: 10px;
+    font-size: 15px;
+}

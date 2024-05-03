@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <!-- <form> -->
+        <h1 style="text-align: center;">Valdiation Game</h1>
+        <div class="child1">
+            <p class="p1">Name</p>
+            <p class="p2">Email</p>
+            <p class="p3">Password</p>
+            <p class="p4">Gender</p>
+            <p class="p5">Sports</p>
+            <p class="p6">country</p>
+        </div>
+        <div class="child2">
+            <div class="div1">
+                <input type="text" id="name" >
+                <span id="nameErorr"></span>
+            </div>
+            <div>
+                <input type="text" id="email">
+                <span id="emailErorr"></span>
+            </div>
+            <div>
+                <input type="password" id="pass">
+                <span id="passEror"></span>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">female</label>
+                <span id="genderErorr"></span>
+            </div>
+            <div>            
+                <input type="checkbox" name="Sports" id="tennis" value="tennis">
+                <label for="male">Tennis</label>
+                <input type="checkbox" name="Sports" id="run" value="run">
+                <label for="female">Running</label>
+                <input type="checkbox" name="Sports" id="football" value="football">
+                <label for="female">Football</label>
+                <span id="sportErorr"></span>
+            </div>
+            <div>
+                <select id="country">
+                <option value=""></option>
+                <option value="USA">USA</option>
+                <option value="ENG">ENG</option>
+                <option value="EGY">EGY</option>
+                <option value="PAL">PAL</option>
+                </select>
+                <span id="countryErorr"></span>
+            </div> 
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+        </div>
+        <span class="clear"></span>
+    <!-- </form> -->
+    <script src="./task5.js"></script>
+</body>
+</html>
